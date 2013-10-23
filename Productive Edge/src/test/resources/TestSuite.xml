@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" verbose="1">
+	<test name="Demo Test" preserve-order="true">
+		<parameter name="value" value="value" />
+		<classes>
+			<class name="demo.tests.OpenMainPageTest" />
+		</classes>
+	</test>
+</suite>
