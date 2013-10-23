@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Debug Suite" verbose="1">
+
+	<test name="Vitality Health Review Test" preserve-order="true">
+		<parameter name="overall" value="Good" />
+		<parameter name="daysPerWeek" value="7" />
+		<parameter name="spendMinutes" value="23" />
+		<parameter name="intense" value="Medium intensity" />
+		<parameter name="strenth" value="Occasionally" />
+		<parameter name="flexibility" value="Rarely" />
+		<parameter name="tvHours" value="5" />
+		<parameter name="tvMinutes" value="15" />
+		<parameter name="pcHours" value="8" />
+		<parameter name="pcMinutes" value="56" />
+		<parameter name="meetingHours" value="1" />
+		<parameter name="meetingMinutes" value="23" />
+		<parameter name="currentLevel" value="I want to increase" />
+		<parameter name="fruitVegetables" value="2" />
+		<parameter name="wholeGrains" value="3" />
+		<parameter name="meatOrFish" value="Yes" />
+		<parameter name="dairyYesNo" value="Yes" />
+		<parameter name="meatValue" value="Rarely" />
+		<parameter name="dairyValue" value="Always" />
+		<parameter name="fats" value="Never" />
+		<parameter name="saltQty" value="Level teaspoon" />
+		<parameter name="saltyFoods" value="Usually" />
+		<parameter name="feelings" value="I know my diet needs" />
+		<parameter name="habits" value="Usually" />
+		<parameter name="sleepHours" value="7" />
+		<parameter name="tired" value="None of the time" />
+		<parameter name="nerv" value="A little of the time" />
+		<parameter name="nerv2" value="Some of the time" />
+		<parameter name="hope" value="Most of the time" />
+		<parameter name="rest" value="All of the time" />
+		<parameter name="sit" value="Most of the time" />
+		<parameter name="depress" value="Some of the time" />
+		<parameter name="effort" value="A little of the time" />
+		<parameter name="sad" value="None of the time" />
+		<parameter name="worth" value="Most of the time" />
+		<parameter name="stress" value="I want to manage my stress" />
+		<parameter name="workDays" value="20" />
+		<parameter name="level" value="Some college" />
+		<parameter name="doSmoke" value="Yes" />
+		<parameter name="cigarettes" value="true" />
+		<parameter name="cigar" value="true" />
+		<parameter name="snuff" value="false" />
+		<parameter name="cigNumber" value="21" />
+		<parameter name="smokingMonths" value="5" />
+		<parameter name="smokingYears" value="2" />
+		<parameter name="smokeHabits" value="plan to stop" />
+		<parameter name="doDrink" value="Yes" />
+		<parameter name="alcoholNumber" value="6" />
+		<parameter name="alcoholAnswr" value="Once" />
+
+		<parameter name="feet" value="5" />
+		<parameter name="inches" value="11" />
+		<parameter name="pounds" value="181" />
+		<parameter name="ninches" value="26" />
+		<parameter name="waist" value="No" />
+		<parameter name="weight" value="I am not happy" />
+		<parameter name="blPressure" value="Know" />
+		<parameter name="systolicVal" value="120" />
+		<parameter name="diastolicVal" value="70" />
+		<parameter name="blPressureLev" value="Normal" />
+		<parameter name="glucose" value="Know" />
+		<parameter name="glucoseVal" value="130" />
+		<parameter name="glucoseLev" value="High" />
+		<parameter name="cholesterol" value="known" />
+		<parameter name="cholesterolVal" value="75" />
+		<parameter name="cholesterolLev" value="Normal" />
+		<parameter name="lowLipoprotein" value="known" />
+		<parameter name="lowLipoproteinVal" value="99" />
+		<parameter name="highLipoprotein" value="known" />
+		<parameter name="highLipoproteinVal" value="12" />
+		<parameter name="triglyceride" value="unknown" />
+		<parameter name="triglycerideVal" value="21" />
+		<parameter name="hbA1c" value="known" />
+		<parameter name="hbA1cVal" value="13" />
+		<classes>
+			<class name="productive.tests.vhr.VitalityHealthReviewTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Suite" verbose="1">
+
+	<test name="Forgot username and password Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.IForgotTest" />
+		</classes>
+	</test>
+	<test name="Get Healthy Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.GetHealthyTest" />
+		</classes>
+	</test>
+	<test name="Get Educated Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.GetEducatedTest" />
+		</classes>
+	</test>
+	<test name="Get Rewarded Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.GetRewardedTest" />
+		</classes>
+	</test>
+</suite>

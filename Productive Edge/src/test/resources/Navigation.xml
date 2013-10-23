@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Navigation Test Suite" verbose="1">
+
+	<test name="Login Test">
+		<classes>
+			<class name="productive.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Forgot username and password Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.IForgotTest" />
+		</classes>
+	</test>
+
+	<test name="Dashboard Navigation Test">
+		<parameter name="userName" value="Man" />
+		<parameter name="vitalityId" value="VS00394772" />
+		<parameter name="status" value="1,400" />
+		<classes>
+			<class name="productive.tests.navigation.DashboardTest" />
+		</classes>
+	</test>
+
+	<test name="Home Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.HomeTest" />
+		</classes>
+	</test>
+
+	<test name="Get Healthy Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.GetHealthyTest" />
+		</classes>
+	</test>
+
+	<test name="Get Educated Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.GetEducatedTest" />
+		</classes>
+	</test>
+
+	<test name="Get Rewarded Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.GetRewardedTest" />
+		</classes>
+	</test>
+
+	<test name="My Profile Navigation Test">
+		<classes>
+			<class name="productive.tests.navigation.MyProfileTest" />
+		</classes>
+	</test>
+
+</suite>
+

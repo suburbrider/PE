@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PhysicalHealth" verbose="1">
+<test name="VHR Test">
+		<parameter name="feet" value="6" />
+		<parameter name="inches" value="3" />
+		<parameter name="pounds" value="148" />
+		<parameter name="ninches" value="15" />
+		<parameter name="waistSure" value="yes" />
+		<parameter name="feelWeight" value="happy" />
+
+		<parameter name="knowBlPressure" value="Know" />
+		<parameter name="systolicValue" value="130" />
+		<parameter name="diastolicValue" value="75" />
+		<parameter name="blPressureLev" value="Normal" />
+		<parameter name="knowGlucose" value="DontKnow" />
+		<parameter name="glucoseValue" value="36" />
+		<parameter name="glucoseLev" value="Low" />
+
+		<parameter name="knowCholesterol" value="known" />
+		<parameter name="cholesterolValue" value="128" />
+		<parameter name="cholesterolLev" value="Low" />
+		<parameter name="knowLowLipoprotein" value="known" />
+		<parameter name="lowLipoproteinValue" value="89" />
+		<parameter name="knowHighLipoprotein" value="known" />
+		<parameter name="highLipoproteinValue" value="64" />
+		<parameter name="knowTriglyceride" value="known" />
+		<parameter name="triglycerideValue" value="99" />
+		<parameter name="knowHbA1c" value="unknown" />
+		<parameter name="hbA1cValue" value="11" />
+		<classes>
+			<class name="productive.tests.VHRTest" />
+		</classes>
+	</test>
+</suite>
